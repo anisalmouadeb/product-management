@@ -104,10 +104,6 @@ export default function UpdateProduct() {
   };
 
   const handleSubmit = (e) => {
-    if (verifExist()) {
-      e.preventDefault();
-      return alert("please change name of product");
-    }
     const isvalid = validate(productData);
     if (isvalid) {
       console.log("add");
