@@ -14,9 +14,11 @@ app.use(cors());
 app.use("/", productRoutes);
 
 const PORT = process.env.PORT || 5000;
+const CONNECTION_URL =
+  "mongodb+srv://anismeddeb1997:anismeddeb1997@cluster0.zt7t7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 // setting up database
 mongoose
-  .connect(process.env.CONNECTION_URL, {
+  .connect(CONNECTION_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
