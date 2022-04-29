@@ -1,0 +1,62 @@
+.home {
+  flex: 4;
+}
+
+.homeWidgets {
+  display: flex;
+  margin: 20px;
+}
+
+.productListAdd {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.productListDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.productListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productListShow {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #151721;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.topWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topRight {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  width: 200px;
+}
+.productUpdateInput {
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
