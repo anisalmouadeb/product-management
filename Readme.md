@@ -1,4 +1,4 @@
-# Product Managment web application (test)
+# Product Management web application (test)
 
 > Site built with Node.js, React, Redux, Express, MongoDB
 
